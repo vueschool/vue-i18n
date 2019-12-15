@@ -1,0 +1,14 @@
+{
+  "fruit": {
+    "yellow": {
+      "banana": "banana"
+    },
+    "green": {
+      "apple": "apfel",
+      "kiwi": "kiwi"
+    },
+    "apple": "apfel"
+  },
+  "goodbye": "auf wiedersehen",
+  "message": "hallo"
+}
