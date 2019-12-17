@@ -18,6 +18,8 @@ export default {
 
     if (locale) {
       this.$i18n.locale = locale;
+    } else if (navigator.language) {
+      this.$i18n.locale = navigator.language.substring(0, 2);
     }
   }
 };
