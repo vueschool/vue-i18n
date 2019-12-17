@@ -1,18 +1,4 @@
 {
-  "fruit": {
-    "yellow": {
-      "banana": ""
-    },
-    "apple": "",
-    "green": {
-      "kiwi": "",
-      "apple": ""
-    }
-  },
-  "oranges": "",
-  "message": "hola i18n!!",
-  "kiwi": "",
-  "goodbye": "adios",
-  "bananas": "",
-  "apples": ""
+  "hello": "Hola",
+  "goodbye": "Adios"
 }

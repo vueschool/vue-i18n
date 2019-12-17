@@ -1,15 +1,4 @@
 {
-  "apples": "apples",
-  "fruit": {
-    "green": {
-      "apple": "apple",
-      "kiwi": "kiwi"
-    },
-    "yellow": {
-      "banana": "banana"
-    }
-  },
-  "goodbye": "goodbye",
-  "language": "English",
-  "message": "hello i18n !!"
+  "hello": "Hello",
+  "goodbye": "Goodbye"
 }
