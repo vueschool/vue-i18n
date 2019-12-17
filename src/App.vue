@@ -25,12 +25,12 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-.btn {
+.button {
   border: 1px solid black;
   padding: 8px;
   margin: 2px;
 }
-.btn:hover {
+.button:hover {
   color: #2c3e50;
 }
 </style>
