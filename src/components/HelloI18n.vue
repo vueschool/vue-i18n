@@ -4,16 +4,19 @@
     <p>{{ $t("email", { email }) }}</p>
     <p>{{ $t("goodbye") }}</p> -->
 
-    <p>{{ $tc("car", 2) }}</p>
+    <!-- <p>{{ $tc("car", 2) }}</p>
     <p>{{ $tc("person", 0) }}</p>
     <p>{{ $tc("person", 1) }}</p>
     <p>{{ $tc("person", 10, { n: "too many" }) }}</p>
 
     <p>{{ $tc("apple", 0) }}</p>
     <p>{{ $tc("apple", 1) }}</p>
-    <p>{{ $tc("apple", 2) }}</p>
+    <p>{{ $tc("apple", 2) }}</p> -->
 
-    <button @click="setLocale('en')" class="button">English</button>
+    <p>{{ $d(new Date(), "long") }}</p>
+    <!-- <p>{{ $d(new Date(), "long", "en-GB") }}</p> -->
+
+    <button @click="setLocale('en-GB')" class="button">English</button>
     <button @click="setLocale('es')" class="button">Spanish</button>
     <button @click="setLocale('de')" class="button">German</button>
   </div>
