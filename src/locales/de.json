@@ -1,0 +1,5 @@
+{
+  "hello": "hallo {name}",
+  "goodbye": "Auf wiedersehen",
+  "email": "Unsere email: {email}"
+}

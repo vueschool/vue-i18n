@@ -1,3 +1,5 @@
 {
-  "message": "hello i18n !!"
+  "hello": "Hello {name}",
+  "goodbye": "Goodbye",
+  "email": "Our email is: {email}"
 }

@@ -12,6 +12,15 @@ export default {
   name: "app",
   components: {
     HelloI18n
+  },
+  created() {
+    const locale = localStorage.getItem("locale");
+
+    if (locale) {
+      this.$i18n.locale = locale;
+    } else if (navigator.language) {
+      this.$i18n.locale = navigator.language.substring(0, 2);
+    }
   }
 };
 </script>
@@ -24,5 +33,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.button {
+  border: 1px solid black;
+  padding: 8px;
+  margin: 2px;
+}
+.button:hover {
+  color: #2c3e50;
 }
 </style>
