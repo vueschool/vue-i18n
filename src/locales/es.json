@@ -1,5 +1,7 @@
 {
   "hello": "Hola {name}",
   "goodbye": "Adios",
-  "email": "Nuestro email es: {email}"
+  "email": "Nuestro email es: {email}",
+  "car": "coche | coches",
+  "person": "no personas | persona | {n} personas"
 }
