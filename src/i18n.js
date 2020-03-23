@@ -3,6 +3,27 @@ import VueI18n from "vue-i18n";
 
 Vue.use(VueI18n);
 
+const numberFormats = {
+  "en-GB": {
+    currency: {
+      style: "currency",
+      currency: "GBP"
+    }
+  },
+  "en-US": {
+    currency: {
+      style: "currency",
+      currency: "USD"
+    }
+  },
+  "es-ES": {
+    currency: {
+      style: "currency",
+      currency: "EUR"
+    }
+  }
+};
+
 const setDateTimeFormats = {
   short: {
     year: "numeric",
@@ -47,5 +68,6 @@ export default new VueI18n({
   locale: process.env.VUE_APP_I18N_LOCALE || "en",
   fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || "en",
   messages: loadLocaleMessages(),
-  dateTimeFormats
+  dateTimeFormats,
+  numberFormats
 });
