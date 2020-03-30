@@ -19,7 +19,7 @@
     <!-- <p>{{ product.name }}: {{ $n(product.price, "currency") }}</p>
     <p>{{ product.stock }} left in stock</p> -->
 
-    <div>
+    <!-- <div>
       <i18n-n :value="4500.45" format="currency">
         <template v-slot:currency="slotProps">
           <span style="color: red; font-size: 25px; font-weight: bold">{{
@@ -39,11 +39,17 @@
           <span style="color:red; font-size:25px">{{ slotProps.group }}</span>
         </template>
       </i18n-n>
-    </div>
+    </div> -->
 
-    <button @click="setLocale('en-GB')" class="button">UK</button>
-    <button @click="setLocale('en-US')" class="button">USA</button>
-    <button @click="setLocale('es-ES')" class="button">Spain</button>
+    <i18n path="terms" tag="p">
+      <template v-slot:termsURL>
+        <a href="/terms">{{ $t("termsLink") }}</a>
+      </template>
+    </i18n>
+
+    <button @click="setLocale('en')" class="button">English</button>
+    <!-- <button @click="setLocale('en-US')" class="button">USA</button> -->
+    <button @click="setLocale('es')" class="button">Spanish</button>
   </div>
 </template>
 
