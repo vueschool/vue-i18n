@@ -4,5 +4,7 @@
   "email": "Our email is: {email}",
   "car": "car | cars",
   "person": "no people | one person | {n} people",
-  "apple": "no apples | 1 apple | {n} apples"
+  "apple": "no apples | 1 apple | {n} apples",
+  "terms": "I accept the {termsURL} of the service contract",
+  "termsLink": "terms and conditions"
 }
